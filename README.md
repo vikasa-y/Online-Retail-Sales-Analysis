@@ -314,3 +314,86 @@ The analysis highlights how careful investigation and business context are impor
 UCI Machine Learning Repository — Online Retail Dataset
 
 https://archive.ics.uci.edu/dataset/352/online+retail
+
+---
+# 🚀 Future Features
+
+The project can be extended as new data science, analytics, and software development skills are learned.
+
+## 📊 Power BI Dashboard
+
+* Build an interactive **Power BI dashboard** for the retail analysis.
+* Create KPI cards for:
+
+  * Total Revenue
+  * Total Quantity
+  * Customers
+  * Transactions
+  * Cancellation Rate
+* Add interactive filters for:
+
+  * Country
+  * Product
+  * Customer
+  * Date / Month
+* Create interactive visuals for revenue, product performance, customer behavior, country performance, and sales trends.
+* Add drill-down and interactive exploration of the data.
+* Connect Power BI directly to a SQL database in a future version.
+
+## 📈 Advanced Analytics
+
+* Add **RFM (Recency, Frequency, Monetary) analysis**.
+* Perform customer segmentation using clustering such as K-Means.
+* Analyze products frequently purchased together.
+* Apply statistical analysis to validate important findings.
+
+## 🤖 Machine Learning
+
+* Build a customer segmentation model.
+* Develop sales forecasting models.
+* Predict potential high-value customers.
+* Explore anomaly detection for unusual transactions.
+
+## 🗄️ SQL & Databases
+
+* Store cleaned retail data in **SQLite or another relational database**.
+* Reproduce important analyses using SQL.
+* Build a pipeline for loading and transforming new data.
+
+## 🌐 Web Application
+
+* Convert the analysis into a web dashboard using **Flask**.
+* Create APIs for sales and customer metrics.
+* Allow users to interact with the analysis through a web interface.
+
+## 🐳 Deployment
+
+* Containerize the application using **Docker**.
+* Deploy the dashboard or API to the cloud.
+* Add testing and CI/CD workflows.
+
+## 🔮 Long-Term Goal
+
+Transform the current static EDA project into an end-to-end analytics system:
+
+```text
+Raw Data
+   ↓
+ETL Pipeline
+   ↓
+SQL Database
+   ↓
+Python EDA
+   ↓
+Power BI Dashboard
+   ↓
+Machine Learning
+   ↓
+Flask API
+   ↓
+Docker
+   ↓
+Cloud Deployment
+```
+
+These features will be added progressively as new technologies and skills are learned.
